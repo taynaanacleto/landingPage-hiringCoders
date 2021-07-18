@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gagalin';
+    src: url(fonts/Gagalin-Regular.otf);
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+.section-img {
+    padding-bottom: 40px;
+}
+
+.desconto {
+
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    font-family: 'PlayfairDisplay';
+}
+
+.ate {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    right: 24px;
+}
+
+.porcentagem {
+    display: inline-block;
+    position: relative;
+    right: 24px;
+}
+
+.off {
+    text-align: right;
+    position: relative;
+    top: -20px;
+}
+
+.imgtop {
+    width: 100%;
+}
+
+.text-img {
+    color: white;
+    position: absolute;
+    right: 0;
+    font-size: 26px;
+    width: 250px;
+    text-align: center;
+    bottom: 120px;
+    font-family: 'Gagalin';
+}
+
+.card-casas {
+    padding-bottom: 30px;
+}
+
+.divisor {
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+.row-cards {
+    margin-top: 50px;
+}
+
+.card {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-card {
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-form {
+    background-image: url(../assets/smoke3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-image: url(../assets/smoke2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.frase {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.email {
+    max-width: 380px;
+    margin: 0px auto;
+    font-size: 19px;
+}
+
+.button {
+    /*margin-top: 20px;*/
+    margin-top: -70px;
+    margin-left: 268px;
+    font-size: 15px;
+    width: 105px;
+}
+
+.footer {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1140px) {
+    .desconto {
+        font-size: 40px;
+    }
+
+    .text-img {
+        bottom: 180px;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px) {
+    .desconto {
+        font-size: 35px;
+    }
+
+    .text-img {
+        font-size: 19px;
+        width: 167px;
+        bottom: 246px;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+    .desconto {
+        font-size: 22px;
+        right: 22px;
+    }
+
+    .text-img {
+        font-size: 15px;
+        width: 135px;
+        bottom: 300px;
+    }
+
+    .off {
+        top: -9px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+    .desconto {
+        font-size: 18px;
+        right: 7px;
+    }
+
+    .text-img {
+        font-size: 12px;
+        width: 100px;
+        bottom: 355px;
+    }
+
+    .off {
+        top: -8px;
+        right: 10px;
+    }
+
+    .ate {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .desconto {
+        font-size: 18px;
+        right: -10px;
+    }
+
+    .text-img {
+        font-size: 12px;
+        width: 127px;
+        bottom: 355px;
+        right: 0;
+    }
+
+    .off {
+        top: -8px;
+        right: 10px;
+    }
+
+    .ate {
+        font-size: 12px;
+    }
+
+    .divisor img {
+        text-align: center;
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .card {
+        width: 260px;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    transition: transform .1s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+}
